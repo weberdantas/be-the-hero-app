@@ -59,7 +59,7 @@ export default function NewIncident() {
             onChange={e => setTitle(e.target.value)}
           />
           <textarea
-            placeholder="Descição"
+            placeholder="Descrição"
             value={description}
             onChange={e => setDescription(e.target.value)}
           />
